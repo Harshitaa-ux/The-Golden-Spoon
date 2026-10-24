@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Menu | The Royal Spoon</title>
+    <meta name="description" content="Explore The Royal Spoon's modern fine dining menu.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loader">
+        <div class="loader-mark">The Royal Spoon</div>
+    </div>
+    <div id="progress"></div>
+    <nav class="nav"><a class="brand" href="index.html">Royal <span>Spoon</span></a><button
+            class="menu-toggle">☰</button>
+        <div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a class="active"
+                href="menu.html">Menu</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><a
+                class="nav-cta" href="reservation.html">Reserve</a></div>
+    </nav>
+    <main>
+        <header class="page-hero"
+            style="--bg:url('https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1800&q=85')">
+            <div><span class="eyebrow">Seasonal & soulful</span>
+                <h1>Our Menu</h1>
+                <p>Considered ingredients. Unforgettable plates.</p>
+            </div>
+        </header>
+        <section class="section">
+            <div class="container">
+                <div class="section-heading"><span class="eyebrow">À la carte</span>
+                    <h2 class="title">Choose your <i class="gold">favourite</i></h2>
+                </div>
+                <div class="menu-tools"><input id="menuSearch" class="search" type="search"
+                        placeholder="Search the menu...">
+                    <div class="filters"><button class="filter active" data-filter="all">All</button><button
+                            class="filter" data-filter="starters">Starters</button><button class="filter"
+                            data-filter="soups">Soups</button><button class="filter" data-filter="main">Main
+                            Course</button><button class="filter" data-filter="pizza">Pizza</button><button
+                            class="filter" data-filter="burger">Burger</button><button class="filter"
+                            data-filter="desserts">Desserts</button><button class="filter"
+                            data-filter="drinks">Drinks</button></div>
+                </div>
+                <div class="menu-grid">
+                    <article class="menu-item" data-category="starters"><img
+                            src="https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?auto=format&fit=crop&w=300&q=80"
+                            alt="Burrata">
+                        <div>
+                            <h3>Heritage Burrata <span class="diet">● VEG</span></h3>
+                            <p>Tomato, basil oil, grilled sourdough.</p><span class="price">₹650</span>
+                        </div>
+                    </article>
+                    <article class="menu-item" data-category="starters"><img
+                            src="https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=300&q=80"
+                            alt="Prawn dish">
+                        <div>
+                            <h3>Chilli Prawns <span class="nonveg">● NON-VEG</span></h3>
+                            <p>Garlic butter, lime, coriander.</p><span class="price">₹795</span>
+                        </div>
+                    </article>
+                    <article class="menu-item" data-category="soups"><img
+                            src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=300&q=80"
+                            alt="Soup">
+                        <div>
+                            <h3>Wild Mushroom Soup <span class="diet">● VEG</span></h3>
+                            <p>Roasted mushrooms, truffle cream.</p><span class="price">₹425</span>
+                        </div>
+                    </article>
+                    <article class="menu-item" data-category="main"><img
+                            src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=300&q=80"
+                            alt="Truffle risotto">
+                        <div>
+                            <h3>Truffle Risotto <span class="diet">● VEG</span></h3>
+                            <p>Carnaroli rice, parmesan, black truffle.</p><span class="price">₹895</span>
+                        </div>
+                    </article>
+                    <article class="menu-item" data-category="main"><img
+                            src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=300&q=80"
+                            alt="Salmon">
+                        <div>
+                            <h3>Atlantic Salmon <span class="nonveg">● NON-VEG</span></h3>
+                            <p>Saffron potato, greens, beurre blanc.</p><span class="price">₹1,150</span>
+                        </div>
+                    </article>
+                    <article class="menu-item" data-category="pizza"><img
+                            src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=300&q=80"
+                            alt="Margherita pizza">
+                        <div>
+                            <h3>Smoked Margherita <span class="diet">● VEG</span></h3>
+                            <p>Fior di latte, basil, wood-fired crust.</p><span class="price">₹695</span>
+                        </div>
+                    </article>
+                    <article class="menu-item" data-category="burger"><img
+                            src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=300&q=80"
+                            alt="Gourmet burger">
+                        <div>
+                            <h3>Royal Smash Burger <span class="nonveg">● NON-VEG</span></h3>
+                            <p>Angus patty, onion jam, fries.</p><span class="price">₹725</span>
+                        </div>
+                    </article>
+                    <article class="menu-item" data-category="desserts"><img
+                            src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=300&q=80"
+                            alt="Chocolate dessert">
+                        <div>
+                            <h3>Dark Chocolate <span class="diet">● VEG</span></h3>
+                            <p>Salted caramel, hazelnut praline.</p><span class="price">₹495</span>
+                        </div>
+                    </article>
+                    <article class="menu-item" data-category="drinks"><img
+                            src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=300&q=80"
+                            alt="Craft cocktail">
+                        <div>
+                            <h3>Golden Hour <span class="badge">Popular</span></h3>
+                            <p>Gin, elderflower, citrus, saffron.</p><span class="price">₹575</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="newsletter">
+        <div class="container newsletter-inner">
+            <div><span class="eyebrow">Letters from our kitchen</span>
+                <h2 class="title">A little luxury, in your inbox.</h2>
+            </div>
+            <form class="newsletter-form"><input aria-label="Email address" type="email"
+                    placeholder="Your email address"><button>Subscribe</button></form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright"><span>© 2026 The Royal Spoon.</span><span>18, Regal Avenue, Bandra West,
+                    Mumbai</span></div>
+        </div>
+    </footer><a class="float whatsapp" href="https://wa.me/919876543210">WA</a><a class="float call"
+        href="tel:+919876543210">☎</a><button class="float top">↑</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
